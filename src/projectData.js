@@ -9,14 +9,14 @@ let projects = [
     {
         id: 2,
         title: "To-Do List",
-        description: "An interactive to-do list created using React.",
+        description: "An interactive to-do list created using React. Add items to the list and check them off when they're completed!",
         image: "/to-do-list.png",
         url: "https://its-cess.github.io/to-do-list/" ,
     },
     {
         id: 3,
         title: "Tindog",
-        description: "Webpage for a fake started called Tindog. (Tinder for dogs!) Created using HTML, CSS, and Bootstrap. Responsive web page to look good on any device size!",
+        description: "Webpage for a fake startup called Tindog. (Tinder for dogs!) Created using HTML, CSS, and Bootstrap. Responsive web page to look good on any device size!",
         image: "/tindog.png",
         url: "https://its-cess.github.io/tindog/",
     },

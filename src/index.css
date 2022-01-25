@@ -1,5 +1,5 @@
-/* font-family: 'Josefin Slab', serif;
-font-family: 'Montserrat Subrayada', sans-serif; */
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'Yeseva One', cursive; */
 
 * {
   box-sizing: border-box;
@@ -7,15 +7,46 @@ font-family: 'Montserrat Subrayada', sans-serif; */
 
 body {
   margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #ddddda;
 }
 
+/* Hero Section */
+.hero-container{
+  display: flex;
+  margin: auto;
+  max-width: fit-content;
+  padding: 200px 60px;
+}
+.name-title {
+  font-family: 'Yeseva One', cursive;
+  font-size: 7rem;
+  text-align: center;
+}
+.float-container{
+  max-width:fit-content;
+}
+.portrait {
+  float: left;
+  border-radius: 50%;
+  shape-outside: circle();
+  height: 400px;
+  margin-right: 3rem;
+}
+.hero-description{
+  padding-top: 1rem;
+  font-size: 2rem;
+}
+
+/* Project Section */
 .project-section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 180px;
-  padding: 60px;
+  gap: 140px;
+  padding: 150px 60px;
   margin: auto;
+  box-shadow: inset 0px 2px 40px -6px #bebebe;
 }
  .project-item {
    display: flex;
@@ -23,8 +54,21 @@ body {
    max-width: 400px; 
  }
 .thumbnail {
-  height: 300px;
-  width: 500px;
+  height: 250px;
+  width: 450px;
   object-fit: cover;
+  object-position: 2% top;
   border-radius: 6px;
+  filter: grayscale(100%);
+}
+.thumbnail:hover {
+  filter: none !important;
+}
+
+.project-name {
+  font-family: 'Yeseva One', cursive;
+}
+.project-description {
+  font-size: 1.5rem;
+  padding-top: 10px;
 }
