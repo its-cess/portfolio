@@ -16,11 +16,11 @@ export default function App() {
 
   return(
     <main> 
-     <Hero />
-      <div className="project-section">
-        {projects}
-      </div>
-      <Contact /> 
-    </main> 
+    <Hero /> 
+        <div className="project-section">
+          {projects}
+        </div>
+    <Contact /> 
+  </main>  
   )
 }

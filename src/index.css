@@ -15,12 +15,14 @@ body {
 /* Hero Section */
 .hero-container{
   display: flex;
+  flex-wrap: wrap;
   margin: auto;
   max-width: fit-content;
-  padding: 200px 60px;
+  padding: 250px 60px;
 }
 .name-title {
   font-family: 'Yeseva One', cursive;
+  padding-top: 2rem;
   font-size: 7rem;
   text-align: center;
 }
@@ -36,7 +38,7 @@ body {
 }
 .hero-description{
   padding-top: 1rem;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 /* Project Section */
@@ -99,3 +101,4 @@ a{
 a:hover {
   color: #b5c9d5;
 }
+
