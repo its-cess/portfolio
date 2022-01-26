@@ -102,3 +102,32 @@ a:hover {
   color: #b5c9d5;
 }
 
+/* Media Breakpoints */
+@media only screen and (max-width: 600px) {
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 30px 100px;
+  }
+  .name-title {
+    font-size: 5rem;
+  }
+
+  .float-container {
+    margin: 20px;
+  }
+
+  .hero-description {
+    font-size: 1.4rem;
+  }
+
+  .portrait {
+    shape-outside: none;
+    height: 300px;
+    shape-outside: circle();
+  }
+
+}
