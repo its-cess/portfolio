@@ -2,10 +2,9 @@ import React from "react";
 
 export default function Contact(){
     return (
-        <div>
-            <h4>Email: torocecily@gmail.com</h4>
-            <h4>Phone: </h4>
-            <h4>linkedin.com/in/cecilytoro</h4>
+        <div className="contact-footer">
+            <a href="https://www.linkedin.com/in/cecilytoro/"><i class="fab fa-linkedin fa-5x"></i></a>
+            <a href="https://github.com/its-cess"><i class="fab fa-github-square fa-5x"></i></a>
         </div>
     )
 }

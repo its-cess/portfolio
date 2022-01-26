@@ -9,6 +9,7 @@ body {
   margin: 0;
   font-family: 'Josefin Sans', sans-serif;
   background-color: #ddddda;
+  color: #4e5a65;
 }
 
 /* Hero Section */
@@ -51,24 +52,50 @@ body {
  .project-item {
    display: flex;
    flex-direction: column;
-   max-width: 400px; 
+   max-width: 450px; 
+   border: 12px double #b5c9d5;
+   border-radius: 6px;
+   padding: 40px;
  }
 .thumbnail {
   height: 250px;
-  width: 450px;
+  width: 350px;
   object-fit: cover;
-  object-position: 2% top;
+  object-position: center;
   border-radius: 6px;
   filter: grayscale(100%);
+  margin: 5px 5px 5px 0;
 }
 .thumbnail:hover {
   filter: none !important;
 }
-
 .project-name {
   font-family: 'Yeseva One', cursive;
+  color: #748a9e;
 }
 .project-description {
   font-size: 1.5rem;
   padding-top: 10px;
+}
+
+span {
+  font-weight: 900;
+  font-size: 1.4rem;
+  color: #748a9e;
+}
+
+/* Contact Section */
+.contact-footer {
+  display: flex;
+  min-height: 150px;
+  padding: 40px;
+  justify-content: center;
+  gap: 2.5rem;
+}
+a{
+  text-decoration: none;
+  color: #748a9e;
+}
+a:hover {
+  color: #b5c9d5;
 }

@@ -12,6 +12,7 @@ export default function Portfolio(props) {
                 />
             </a>
             <p className="project-description">{props.description}</p>
+            <p>Created using: <span>{props.using}</span></p>
         </div>
     )
 }

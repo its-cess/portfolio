@@ -4,6 +4,7 @@ import Portfolio from "./components/Portfolio"
 import Contact from "./components/Contact"
 import projectData from "./projectData";
 
+
 export default function App() {
 
   const projects = projectData.map(item => {
@@ -14,12 +15,12 @@ export default function App() {
   })
 
   return(
-    <main>
-      <Hero />
+    <main> 
+     <Hero />
       <div className="project-section">
         {projects}
       </div>
-      <Contact />
-    </main>
+      <Contact /> 
+    </main> 
   )
 }
