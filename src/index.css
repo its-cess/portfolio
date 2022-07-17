@@ -39,6 +39,7 @@ body {
 .hero-description{
   padding-top: 1rem;
   font-size: 1.8rem;
+  white-space: pre-wrap;
 }
 
 /* Project Section */
