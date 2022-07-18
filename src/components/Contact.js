@@ -9,8 +9,8 @@ export default function Contact() {
       <a href="https://github.com/its-cess">
         <i class="fab fa-github-square fa-5x"></i>
       </a>
-      <a href="mailto:torocecily@gmail.com">
-        <i class="fa-solid fa-envelope fa-5x"></i>
+      <a target="_top" href="mailto:torocecily@gmail.com">
+        <i class="fas fa-envelope-square fa-5x"></i>
       </a>
     </div>
   );

@@ -6,6 +6,7 @@ export default function Hero(props) {
       <h1 className="name-title">Cecily Toro</h1>
       <div className="float-container">
         <img
+          alt="portrait"
           className="portrait"
           src={process.env.PUBLIC_URL + "/images/bw.jpg"}
         />
@@ -14,7 +15,8 @@ export default function Hero(props) {
           field, I taught myself web development. Naturally creative, I have a
           passion for frontend web development creating clean, beautiful, and
           responsive webpages. You can see samples of my work by clicking on the
-          screenshots below. This portfolio was created using React.js.
+          screenshots below. This portfolio was created using React.js.{"\n"}
+          <br />
           Currently, I am working as a frontend developer intern at a startup
           company using Vue.js. Some of my responsibilities include fixing bugs,
           improving UI designs, adding new features/functionality to existing
