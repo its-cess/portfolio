@@ -1,6 +1,16 @@
 let projects = [
   {
-    id: 1,
+    id: 9,
+    title: "MERN app",
+    description:
+      "CRUD operations using REST API created with MongoDB. Authentication and authorization using JWT tokens. Image Upload and Google Geocoding API.",
+    image: "/mern-project.png",
+    url: "https://vue-http-demo-df59d.web.app/",
+    using:
+      "CSS, JavaScript, MongoDB, Mongoose, Express.js, React.js, Node.js, Google map and geocoding APIs"
+  },
+  {
+    id: 8,
     title: "Blog",
     description: "CRUD operations and authentication",
     image: "/blog.png",
@@ -8,7 +18,7 @@ let projects = [
     using: "Vue 2, Vue Router, Axios, Headless CMS, Bootstrap"
   },
   {
-    id: 2,
+    id: 7,
     title: "Monster Slayer Game",
     description: "Can you slay the monster?",
     image: "/monster-slayer.png",
@@ -16,7 +26,7 @@ let projects = [
     using: "Vue.js"
   },
   {
-    id: 3,
+    id: 6,
     title: "Recipes",
     description: "All your favorite recipes in one place.",
     image: "/recipes.png",
@@ -24,7 +34,7 @@ let projects = [
     using: "HTML, CSS, Bootstrap"
   },
   {
-    id: 4,
+    id: 5,
     title: "To-Do List",
     description:
       "An interactive to-do list. Add items to the list and check them off when they're completed!",
@@ -33,7 +43,7 @@ let projects = [
     using: "React"
   },
   {
-    id: 5,
+    id: 4,
     title: "Tindog",
     description: "Webpage for a fake startup called Tindog. (Tinder for dogs!)",
     image: "/tindog.png",
@@ -41,7 +51,7 @@ let projects = [
     using: "HTML, CSS, Bootstrap"
   },
   {
-    id: 6,
+    id: 3,
     title: "Simon Says",
     description: "Play this Simon Says game to test your memory!",
     image: "/simon-game.png",
@@ -49,7 +59,7 @@ let projects = [
     using: "HTML, CSS, JavaScript"
   },
   {
-    id: 7,
+    id: 2,
     title: "Drum Set",
     description: "Play the drums using your keyboard or mouse.",
     image: "/drum-kit.png",
@@ -57,7 +67,7 @@ let projects = [
     using: "HTML, CSS, JavaScript"
   },
   {
-    id: 8,
+    id: 1,
     title: "Dicee Game",
     description: "Simple and fun dice game!",
     image: "/dicee.png",
