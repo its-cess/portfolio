@@ -18,16 +18,18 @@ body {
   flex-wrap: wrap;
   margin: auto;
   max-width: fit-content;
-  padding: 25px 60px 50px 60px;
+  padding: 15px 40px 20px 40px;
 }
 .name-title {
   font-family: 'Yeseva One', cursive;
-  padding-top: 2rem;
+  padding-top: 1rem;
+  margin: auto;
   font-size: 7rem;
   text-align: center;
 }
 .float-container{
-  max-width:fit-content;
+  /* max-width:fit-content; */
+  padding: 2rem 4rem;
 }
 .portrait {
   float: left;
@@ -48,7 +50,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   gap: 140px;
-  padding: 150px 60px;
+  padding: 80px 10px;
   margin: auto;
   box-shadow: inset 0px 2px 40px -6px #bebebe;
 }
@@ -111,13 +113,14 @@ a:hover {
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+    padding: 1rem 0;
   }
   .name-title {
     font-size: 5rem;
   }
 
   .float-container {
-    margin: 20px;
+    margin: 0;
   }
 
   .hero-description {
@@ -128,4 +131,10 @@ a:hover {
     display: none;
   }
 
+}
+
+@media screen and (max-width: 1650px) {
+  .project-section {
+    padding: 40px 0;
+  }
 }
