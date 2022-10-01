@@ -1,6 +1,6 @@
 let projects = [
   {
-    id: 10,
+    id: 11,
     title: "MERN app",
     description:
       "CRUD operations using REST API created with MongoDB. Authentication and authorization using JWT tokens. Image Upload and Google Geocoding API.",
@@ -10,7 +10,7 @@ let projects = [
       "CSS, JavaScript, MongoDB, Mongoose, Express.js, React.js, Node.js, Google map and geocoding APIs"
   },
   {
-    id: 9,
+    id: 10,
     title: "Blog",
     description: "CRUD operations and authentication",
     image: "/blog.png",
@@ -18,13 +18,22 @@ let projects = [
     using: "Vue 2, Vue Router, Axios, Headless CMS, Bootstrap"
   },
   {
-    id: 8,
+    id: 9,
     title: "Monster Rolodex",
     description:
       "A rolodex of monsters fetched from an API. Ability to search monsters by name. Built with class components.",
     image: "/monsters-rolodex.png",
     url: "https://its-cess.github.io/react-classes-monsters/",
     using: "React.js"
+  },
+  {
+    id: 8,
+    title: "Resource Library",
+    description:
+      "An application that allows you to add and delete resources. Clicking a resource takes you to the page of the resource.",
+    image: "/resource-library.png",
+    url: "https://its-cess.github.io/resource-library/",
+    using: "Vue.js"
   },
   {
     id: 7,
