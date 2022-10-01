@@ -1,6 +1,4 @@
-import React from "react";
-
-export default function Hero(props) {
+export default function AboutMe() {
   return (
     <div className="hero-container">
       <h1 className="name-title">Cecily Toro</h1>

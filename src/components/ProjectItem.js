@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Portfolio(props) {
+export default function ProjectItem(props) {
   return (
     <div className="project-item">
       <h1 className="project-name">{props.title}</h1>
