@@ -5,13 +5,16 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 
+import "./navigation.styles.scss";
+
 export default function Navigation() {
   return (
     <Fragment>
-      <Navbar variant="dark" bg="dark" expand="lg">
+      <Navbar className="nav-bar" expand="lg" variant="dark">
         <Container fluid>
-          <Navbar.Brand href="/portfolio">Cecily Toro</Navbar.Brand>
-
+          <Navbar.Brand href="/portfolio" className="brand">
+            Cecily Toro
+          </Navbar.Brand>
           <Navbar.Collapse id="navbar-dark-example">
             <Nav>
               <NavDropdown title="Menu" menuVariant="dark">

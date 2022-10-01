@@ -3,11 +3,11 @@ export default function AboutMe() {
     <div className="hero-container">
       <h1 className="name-title">Cecily Toro</h1>
       <div className="float-container">
-        <img
+        {/* <img
           alt="portrait"
           className="portrait"
           src={process.env.PUBLIC_URL + "/images/bw.jpg"}
-        />
+        /> */}
         <p className="hero-description">
           I'm a military veteran and after spending ten years in the medical
           field, I taught myself web development. Naturally creative, I have a
