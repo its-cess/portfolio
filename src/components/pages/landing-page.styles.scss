@@ -1,0 +1,40 @@
+.landing-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4rem;
+}
+
+.banner {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #86c232;
+  animation-name: fadeIn;
+  animation-duration: 4s;
+}
+
+.introduction {
+  font-size: 1.2rem;
+  animation-name: slideIn;
+  animation-duration: 2s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 100%;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(10rem);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
