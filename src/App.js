@@ -3,11 +3,11 @@ import { Fragment } from "react";
 import { Routes, Route } from "react-router-dom";
 
 import Navigation from "./navigation/Navigation";
-import LandingPage from "./components/LandingPage";
-import AboutMe from "./components/AboutMe";
-import Experience from "./components/Experience";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
+import LandingPage from "./components/pages/LandingPage";
+import AboutMe from "./components/pages/AboutMe";
+import Experience from "./components/pages/Experience";
+import Projects from "./components/pages/Projects";
+import Contact from "./components/pages/Contact";
 
 export default function App() {
   return (

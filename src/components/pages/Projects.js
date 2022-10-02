@@ -1,6 +1,6 @@
-import projectData from "../projectData";
+import projectData from "../../../src/projectData";
 
-import ProjectItem from "./ProjectItem";
+import ProjectItem from "../ProjectItem";
 
 export default function Projects() {
   const projects = projectData.map((item) => {

@@ -3,7 +3,6 @@ import { Fragment } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
 
 import "./navigation.styles.scss";
 
@@ -12,23 +11,22 @@ export default function Navigation() {
     <Fragment>
       <Navbar className="nav-bar" expand="lg" variant="dark">
         <Container fluid>
-          <Navbar.Brand href="/portfolio" className="brand">
-            Cecily Toro
-          </Navbar.Brand>
-          <Navbar.Collapse id="navbar-dark-example">
-            <Nav>
-              <NavDropdown title="Menu" menuVariant="dark">
-                <NavDropdown.Item href="/about-me">About Me</NavDropdown.Item>
-                <NavDropdown.Item href="/experience">
-                  Work Experience
-                </NavDropdown.Item>
-                <NavDropdown.Item href="/projects">Projects</NavDropdown.Item>
-                <NavDropdown.Item href="/contact-me">
-                  Contact Me
-                </NavDropdown.Item>
-              </NavDropdown>
-            </Nav>
-          </Navbar.Collapse>
+          <div>
+            <Navbar.Brand href="/portfolio" className="brand">
+              Cecily Toro
+            </Navbar.Brand>
+          </div>
+          <div>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Collapse id="navbar-dark-example">
+              <Nav>
+                <Nav.Link href="/about-me">About Me</Nav.Link>
+                <Nav.Link href="/experience">Work Experience</Nav.Link>
+                <Nav.Link href="/projects">Projects</Nav.Link>
+                <Nav.Link href="/contact-me">Contact Me</Nav.Link>
+              </Nav>
+            </Navbar.Collapse>
+          </div>
         </Container>
       </Navbar>
     </Fragment>

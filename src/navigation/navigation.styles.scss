@@ -1,5 +1,13 @@
 .nav-bar {
+  a:hover {
+    color: #86c232 !important;
+  }
+
   .brand {
+    font-family: "Cinzel", serif;
     color: #86c232;
+  }
+  .brand:hover {
+    color: #61892f !important;
   }
 }
