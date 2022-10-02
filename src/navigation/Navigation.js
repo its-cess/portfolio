@@ -16,7 +16,7 @@ export default function Navigation() {
               Cecily Toro
             </Navbar.Brand>
           </div>
-          <div>
+          <div className="dropdown">
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="navbar-dark-example">
               <Nav>

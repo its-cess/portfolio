@@ -1,13 +1,31 @@
 .nav-bar {
+  padding: 10px;
+
   a:hover {
     color: #86c232 !important;
   }
 
   .brand {
     font-family: "Cinzel", serif;
+    font-size: 2rem;
     color: #86c232;
   }
   .brand:hover {
     color: #61892f !important;
+  }
+}
+
+//Mobile styling:
+@media screen and (max-width: 991px) {
+  .dropdown {
+    text-align: right;
+    position: fixed;
+    top: 20px;
+    right: 25px;
+    background-color: #222629;
+  }
+
+  a.nav-link {
+    margin: 5px 15px;
   }
 }
