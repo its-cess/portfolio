@@ -1,0 +1,21 @@
+img {
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.project-item-container {
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+
+  .description-container {
+    max-width: 600px;
+    margin: 25px;
+    padding: 2rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+}
