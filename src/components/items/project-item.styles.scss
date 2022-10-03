@@ -19,6 +19,17 @@
     max-width: 600px;
     margin: 25px 0 25px 25px;
     padding: 2rem 0 2rem 2rem;
+
+    a {
+      box-shadow: 3px 3px 5px #222;
+      margin-right: 25px;
+      width: 200px;
+
+      &:hover {
+        background-color: #86c232;
+        color: #222629;
+      }
+    }
   }
 
   p {
@@ -43,5 +54,12 @@
       margin: 20px 0;
       max-width: 450px;
     }
+  }
+}
+
+@media screen and (max-width: 907px) {
+  a {
+    width: 100% !important;
+    margin-bottom: 20px;
   }
 }
