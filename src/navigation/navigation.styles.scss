@@ -4,19 +4,19 @@
   .brand {
     font-family: "Cinzel", serif;
     font-size: 2rem;
-  }
-  .brand:hover {
-    color: #86c232 !important;
+    &:hover {
+      color: #86c232 !important;
+    }
   }
 
   .nav-link {
     margin-left: 20px;
     font-size: 1.2rem;
     color: #61892f !important;
-  }
 
-  .nav-link:hover {
-    color: #999 !important;
+    &:hover {
+      color: #999 !important;
+    }
   }
 }
 

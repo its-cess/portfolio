@@ -2,7 +2,7 @@ import { Fragment } from "react";
 import projectData from "../../../src/projectData";
 
 import Header from "../base/Header";
-import ProjectItem from "../ProjectItem";
+import ProjectItem from "../../components/items/ProjectItem";
 
 export default function Projects() {
   const projects = projectData.map((item) => {
@@ -11,7 +11,11 @@ export default function Projects() {
 
   return (
     <Fragment>
-      <Header title="Projects" subTitle="Testing the subtitle" />
+      <Header
+        title="Work Examples"
+        subTitle="Personal Projects"
+        span="Made with a variety of technologies"
+      />
       <div className="project-section">{projects}</div>
     </Fragment>
   );

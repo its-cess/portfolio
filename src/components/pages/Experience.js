@@ -1,5 +1,15 @@
-import React from "react";
+import { Fragment } from "react";
+
+import Header from "../base/Header";
 
 export default function Experience() {
-  return <h1>Experience Page</h1>;
+  return (
+    <Fragment>
+      <Header
+        title="Work Experience"
+        subTitle="Front End Developer Internship, Wethos"
+        span="March 2022 - September 2022"
+      />
+    </Fragment>
+  );
 }

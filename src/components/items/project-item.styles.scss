@@ -1,14 +1,11 @@
 .project-item-container {
   display: flex;
   background-color: rgba(71, 75, 79, 0.4);
+  box-shadow: 10px 5px 5px #222;
   border-radius: 24px;
   max-width: 1000px;
   margin: 20px auto;
   padding: 2rem 1.5rem;
-
-  .project-name {
-    color: #999;
-  }
 
   img {
     height: 250px;
@@ -26,7 +23,6 @@
 
   p {
     font-size: 1.2rem;
-    color: #999;
   }
 }
 
@@ -35,10 +31,11 @@
     flex-direction: column;
     align-items: flex-start;
     max-width: fit-content;
+    margin: 20px auto;
 
     img {
-      width: 450px;
-      height: 350px;
+      width: 420px;
+      height: 320px;
     }
 
     .description-container {

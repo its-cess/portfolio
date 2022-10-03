@@ -1,0 +1,26 @@
+.contact-container {
+  display: flex;
+  background-color: rgba(71, 75, 79, 0.4);
+  box-shadow: 10px 5px 5px #222;
+  border-radius: 24px;
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 2rem 1.5rem;
+  justify-content: space-around;
+
+  .fab,
+  .fas {
+    color: #86c232;
+
+    &:hover {
+      color: #61892f;
+    }
+  }
+}
+
+@media screen and (max-width: 1014px) {
+  .contact-container {
+    margin: 20px;
+    padding: 1rem;
+  }
+}
