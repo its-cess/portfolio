@@ -3,17 +3,36 @@
   font-size: 4rem;
   color: #86c232;
   margin-top: 2.5rem;
-  text-align: center;
 }
 
 .sub-title {
   font-size: 2rem;
-  text-align: center;
 }
 
 h6 {
   color: #474b4f;
-  text-align: center;
-  margin-bottom: 2.5rem;
   font-style: italic;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 2rem 4rem;
+}
+
+.center {
+  text-align: center;
+}
+
+@media screen and (max-width: 514px) {
+  .header-title {
+    margin-top: 0;
+  }
+  .center {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 1rem;
+  }
 }

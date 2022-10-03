@@ -34,3 +34,9 @@
     margin: 5px 15px;
   }
 }
+
+@media (max-width: 514px) {
+  .nav-bar {
+    padding-left: 0;
+  }
+}

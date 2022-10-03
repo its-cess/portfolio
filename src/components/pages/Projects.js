@@ -12,6 +12,7 @@ export default function Projects() {
   return (
     <Fragment>
       <Header
+        align="center"
         title="Work Examples"
         subTitle="Personal Projects"
         span="Made with a variety of technologies"

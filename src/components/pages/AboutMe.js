@@ -8,6 +8,7 @@ export default function AboutMe() {
   return (
     <Fragment>
       <Header
+        align="left"
         title="About Me"
         subTitle="Cecily Toro"
         span="Junior Front End Web Developer"

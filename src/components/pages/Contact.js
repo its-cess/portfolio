@@ -8,6 +8,7 @@ export default function Contact() {
   return (
     <Fragment>
       <Header
+        align="left"
         title="Contact Me"
         subTitle="Open to Junior Front End Developer Positions"
         span="Available to start immediately"
@@ -18,13 +19,20 @@ export default function Contact() {
           target="_blank"
           rel="noreferrer"
         >
-          <i class="fab fa-linkedin fa-5x"></i>
+          <i class="fab fa-linkedin"></i>
         </a>
         <a href="https://github.com/its-cess" target="_blank" rel="noreferrer">
-          <i class="fab fa-github-square fa-5x"></i>
+          <i class="fab fa-github-square"></i>
+        </a>
+        <a
+          href="https://twitter.com/its_cess7"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <i class="fab fa-twitter-square"></i>
         </a>
         <a target="_top" href="mailto:torocecily@gmail.com" rel="noreferrer">
-          <i class="fas fa-envelope-square fa-5x"></i>
+          <i class="fas fa-envelope-square"></i>
         </a>
       </div>
     </Fragment>

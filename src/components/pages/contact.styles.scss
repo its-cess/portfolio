@@ -1,15 +1,12 @@
 .contact-container {
   display: flex;
-  background-color: rgba(71, 75, 79, 0.4);
-  box-shadow: 10px 5px 5px #222;
-  border-radius: 24px;
-  max-width: 1000px;
-  margin: 20px auto;
-  padding: 2rem 1.5rem;
-  justify-content: space-around;
+  padding: 2rem 4rem;
+  justify-content: flex-start;
 
   .fab,
   .fas {
+    font-size: 7rem;
+    margin-right: 2rem;
     color: #86c232;
 
     &:hover {
@@ -18,9 +15,14 @@
   }
 }
 
-@media screen and (max-width: 1014px) {
+@media screen and (max-width: 655px) {
   .contact-container {
-    margin: 20px;
-    padding: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .fab,
+  .fas {
+    font-size: 10rem !important;
   }
 }
