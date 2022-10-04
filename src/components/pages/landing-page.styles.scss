@@ -15,9 +15,18 @@
 }
 
 .introduction {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   animation-name: slideIn;
   animation-duration: 2s;
+
+  .inline-link {
+    color: #61892f;
+    text-decoration: none;
+
+    &:hover {
+      color: #fff;
+    }
+  }
 }
 
 @keyframes fadeIn {
