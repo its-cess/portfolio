@@ -13,6 +13,9 @@ export default function Contact() {
         subTitle="Open to Junior Front End Developer Positions"
         span="Available to start immediately"
       />
+      <h4 className="references">
+        References and letter of recommendation available upon request.
+      </h4>
       <div className="contact-container">
         <a
           href="https://www.linkedin.com/in/cecilytoro/"
