@@ -4,7 +4,6 @@ let tickets = [
     title: "Create Project Modal Update",
     beforeImage: "/BEFORE-project-modal.png",
     afterImage: "/project-type-toggle.png",
-    metricImage: "/METRIC-client-modal.png",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh sed pulvinar proin gravida hendrerit lectus. Dignissim cras tincidunt lobortis feugiat vivamus.",
     impact:
@@ -15,7 +14,6 @@ let tickets = [
     title: "Mobile Templates Page Optimization",
     beforeImage: "/BEFORE-mobile-templates.png",
     afterImage: "/mobile-templates.png",
-    metricImage: "/METRIC-mobile-templates.png",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh sed pulvinar proin gravida hendrerit lectus. Dignissim cras tincidunt lobortis feugiat vivamus.",
     impact:
@@ -26,7 +24,6 @@ let tickets = [
     title: "Proposal Builder Updates",
     beforeImage: "/BEFORE-proposal-builder.png",
     afterImage: "/proposal-builder.png",
-    metricImage: "/METRIC-proposal-builder.png",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh sed pulvinar proin gravida hendrerit lectus. Dignissim cras tincidunt lobortis feugiat vivamus.",
     impact:

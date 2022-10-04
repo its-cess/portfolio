@@ -6,7 +6,7 @@ let projects = [
       "CRUD operations using REST API created with MongoDB. Authentication and authorization using JWT tokens. Image Upload and Google Geocoding API.",
     image: "/mern-project.png",
     url: "https://vue-http-demo-df59d.web.app/",
-    repo: "https://github.com/its-cess/mern-frontend",
+
     using:
       "CSS, JavaScript, MongoDB, Mongoose, Express.js, React.js, Node.js, Google map and geocoding APIs"
   },
