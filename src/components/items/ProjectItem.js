@@ -36,6 +36,7 @@ export default function ProjectItem(props) {
               target="_blank"
               rel="noreferrer"
             >
+              <i class="fab fa-github"></i>
               GitHub Repository
             </Button>
           )}

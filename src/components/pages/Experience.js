@@ -19,10 +19,11 @@ export default function Experience() {
         span="March 2022 - September 2022"
       />
       <h5 className="wethos-description">
-        Wethos is.... Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh
-        sed pulvinar proin gravida hendrerit lectus. Dignissim cras tincidunt
-        lobortis feugiat vivamus.
+        Wethos is an all-in-one platform that helps freelancers conduct and grow
+        their business. The peer-sourced template library allows users to see
+        what others are charging for services, allowing them to confidently
+        price their work. They can create a project, build a project proposal,
+        send invoices to clients, and get paid all from one place.
       </h5>
       <div className="ticket-section">{tickets}</div>
     </Fragment>
