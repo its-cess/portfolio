@@ -4,6 +4,8 @@ import ticketData from "../../ticketData";
 import Header from "../base/Header";
 import TicketItem from "../items/TicketItem";
 
+import "./experience.styles.scss";
+
 export default function Experience() {
   const tickets = ticketData.map((item) => {
     return <TicketItem key={item.id} {...item} />;

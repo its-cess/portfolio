@@ -52,17 +52,6 @@ let tickets = [
   },
   {
     id: 6,
-    title: "Feature Project",
-    beforeImage: "/team-scope-builder.png",
-    afterImage: "/solo-scope-builder.png",
-
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh sed pulvinar proin gravida hendrerit lectus. Dignissim cras tincidunt lobortis feugiat vivamus.",
-    impact:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquet porttitor lacus luctus accumsan tortor posuere ac ut."
-  },
-  {
-    id: 7,
     title: "People Page Updates",
     beforeImage: "/BEFORE-people-page.png",
     afterImage: "/people-page.png",
@@ -73,7 +62,7 @@ let tickets = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquet porttitor lacus luctus accumsan tortor posuere ac ut."
   },
   {
-    id: 8,
+    id: 7,
     title: "Project Goals Editor",
     beforeImage: "/BEFORE-client-goals.png",
     afterImage: "/project-goals-2.png",
