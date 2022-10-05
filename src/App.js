@@ -13,7 +13,7 @@ export default function App() {
   return (
     <Fragment>
       <Navigation />
-      <Routes>
+      <Routes basename="portfolio">
         <Route path="portfolio" element={<LandingPage />} />
         <Route path="portfolio/about-me" element={<AboutMe />} />
         <Route path="portfolio/experience" element={<Experience />} />
