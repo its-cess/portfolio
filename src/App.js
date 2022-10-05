@@ -15,10 +15,10 @@ export default function App() {
       <Navigation />
       <Routes>
         <Route path="portfolio" element={<LandingPage />} />
-        <Route path="portfolio/about-me" element={<AboutMe />} />
-        <Route path="portfolio/experience" element={<Experience />} />
-        <Route path="portfolio/projects" element={<Projects />} />
-        <Route path="portfolio/contact-me" element={<Contact />} />
+        <Route path="about-me" element={<AboutMe />} />
+        <Route path="experience" element={<Experience />} />
+        <Route path="projects" element={<Projects />} />
+        <Route path="contact-me" element={<Contact />} />
       </Routes>
     </Fragment>
   );
