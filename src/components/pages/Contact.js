@@ -24,7 +24,11 @@ export default function Contact() {
         >
           <i class="fab fa-linkedin"></i>
         </a>
-        <a href="https://github.com/its-cess" target="_blank" rel="noreferrer">
+        <a
+          href="https://github.com/its-cess?tab=repositories"
+          target="_blank"
+          rel="noreferrer"
+        >
           <i class="fab fa-github-square"></i>
         </a>
         <a

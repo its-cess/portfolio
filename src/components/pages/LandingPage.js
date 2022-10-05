@@ -6,7 +6,7 @@ export default function LandingPage() {
       <h1 className="banner">Welcome!</h1>
       <p className="introduction">
         I'm Cecily Toro - a junior front end web developer. Thanks for stopping
-        by to look at my portfolio! I just finished a 6-month inernship at a
+        by to look at my portfolio! I just finished a 6-month internship at a
         startup company. You can take a look at the work I did during that
         internship in-depth in the{" "}
         <a href="/experience" className="inline-link">
