@@ -3,12 +3,12 @@ let projects = [
     id: 11,
     title: "MERN app",
     description:
-      "CRUD operations using REST API created with MongoDB. Authentication and authorization using JWT tokens. Image Upload and Google Geocoding API.",
+      "This project allows users to create an account, log in, and add their favorite places. Authentication and authorization are in place along with form validation for signing up, logging in, and creating a new place. Certain routes and actions are disabled based on the logged in user. Only the user that created the place is allowed to edit or delete it. A pop up modal allows users to view the locations on a map. Image upload is used for both profile pictures and place images. This app uses all of the CRUD operations.",
     image: "/mern-project.png",
     url: "https://vue-http-demo-df59d.web.app/",
 
     using:
-      "CSS, JavaScript, MongoDB, Mongoose, Express.js, React.js, Node.js, Google map and geocoding APIs"
+      "This project was created using React v16, React Router v5, CSS, CSS Transition library, and Google's Geocoding API. The backend was created using Node and Express.js. The database was created using mongoose and MongoDB. Express-validator was used as a middleware for data validation. Multer package was used to handle multipart form data. UUID was used to create unique IDs. BCryptJS was used for storage of hashed passwords. JSONWebToken was used for authentication/authorization. Axios was used to make API calls. Hosted using Firebase and Heroku."
   },
   {
     id: 10,
