@@ -1,0 +1,28 @@
+/* font-family: 'Cinzel', serif;
+font-family: 'Raleway', sans-serif; */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 4rem;
+  font-family: "Raleway", sans-serif;
+  background-color: #222629;
+  color: #999;
+}
+
+h1 {
+  font-family: "Cinzel", serif;
+  color: #86c232;
+}
+
+a {
+  color: #86c232;
+}
+
+div {
+  display: inline-block;
+  margin: 2rem auto;
+  font-size: 2rem;
+}
